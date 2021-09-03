@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.new-item-container{
+    display: flex;
+    flex-wrap:wrap;
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.header{
+    width: 100%;
+}
+hr{
+    width: 100%;
+    margin: 10px;
+    
+}
+input{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    
+}
+button{
+    border-style: none;
+    border-radius: 10px;
+}
+.todo-container{
+    display: flex;
+    width: 400px;
+   
+
+}
